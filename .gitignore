@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# Raw data
+data/raw/*
+!data/raw/.gitkeep
+!data/raw/hillstrom_email.csv
+
+# Processed data
+data/processed/*
+!data/processed/.gitkeep
+
+# Model artifacts
+*.pt
+*.pth
+*.pkl
+*.joblib
+
+# Generated outputs
+results/figures/*
+!results/figures/.gitkeep
+results/metrics/*
+!results/metrics/.gitkeep
+results/outputs/*
+!results/outputs/.gitkeep
+
