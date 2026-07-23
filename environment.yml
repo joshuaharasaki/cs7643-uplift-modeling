@@ -1,4 +1,4 @@
-name: cs7643-project2
+name: cs7643-uplift
 channels:
   - conda-forge
 dependencies:
